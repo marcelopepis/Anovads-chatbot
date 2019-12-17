@@ -25,9 +25,9 @@ class LogViewSet(viewsets.ModelViewSet):
 
       trainer = ChatterBotCorpusTrainer(chatbot)
 
-      trainer.train("chatterbot.corpus.portuguese.conversations")
-      trainer.train("chatterbot.corpus.portuguese.greetings")
-      trainer.train("chatterbot.corpus.portuguese.compliment")
+      #trainer.train("chatterbot.corpus.portuguese.conversations")
+      #trainer.train("chatterbot.corpus.portuguese.greetings")
+      #trainer.train("chatterbot.corpus.portuguese.compliment")
 
       conv = conversation.frases()
 
